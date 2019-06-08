@@ -17,19 +17,13 @@ import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
-
 import static android.view.View.VISIBLE;
-import static android.view.animation.Animation.RELATIVE_TO_PARENT;
-import static android.view.animation.Animation.RELATIVE_TO_SELF;
-import static android.view.animation.Animation.REVERSE;
+
 
 public class MainActivity extends AppCompatActivity {
     private ImageView kl,mn,op,qr,st;
     ViewGroup vg;
     int click = 0;
-    int[] m = new int[2];
-    int[] n = new int[2];
-    int[] k = new int[2];
     float y,yt;
 
     @Override
